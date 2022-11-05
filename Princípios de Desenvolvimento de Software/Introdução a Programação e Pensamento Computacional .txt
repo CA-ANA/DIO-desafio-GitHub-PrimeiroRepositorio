@@ -1,0 +1,46 @@
+O que é o pensamento computacional? 
+O mundo moderno exige mudanças de pensamento em relação a educação e a tomada de decisões. Ser um cidadão mais crítico, lógico, que sabe trabalhar em equipe e resolver problemas que surgem no dia a dia é fundamental para sobreviver em um mundo competitivo e repleto de desafios na vida pessoal e profissional. 
+
+Diante desse cenário e da presença da tecnologia em praticamente tudo que nos cerca, surge o pensamento computacional: uma metodologia criada para ajudar no aprendizado das crianças. Elas aprendem a desenvolver sua capacidade criativa, lógica e estratégica para resolver problemas em diferentes áreas de conhecimento utilizando bases computacionais. Tudo isso aliado aptidões socioemocionais adquiridas por meio de experiências, cultura e outros fatores sociais. 
+
+Em linhas gerais o pensamento computacional acontece na educação a partir de quatro pilares: 
+
+Decomposição: Ao se deparar com um problema complexo, o aluno deve dividi-lo em pequenas partes, assim conseguirá solucioná-las com mais facilidade; 
+
+Reconhecimento de padrões: Identificação de aspectos comuns nos processos para resolução do problema; 
+
+Abstração: Dá prioridade aos elementos que têm relevância, diferenciando-os daqueles que podem ser deixados de lado; 
+
+Algoritmos: Criação de um grupo de regras para a solução de problemas. 
+
+Em sala de aula, o aluno receberá problemas que aparentam ser complexos, de difícil resolução e, com o pensamento computacional, será capaz de transformá-lo em algo mais fácil de ser compreendido, utilizando cada uma das fases apresentadas. 
+
+"No começo, programar um microprocessador para executar uma determinada tarefa não era uma das coisas mais fáceis que existiam. O programador estava preso a utilizar-se da Linguagem de Máquina, que era a programação diretamente em binário ou em hexadecimal. Guardar o que cada código, ou seja, cada número binário ou seu equivalente em hexadecimal significava para o microprocessador, não era fácil. Logo foi criada a primeira linguagem de programação, a linguagem Assembly. Na linguagem assembly, cada código que possui um significado especial para o microprocessador - que é chamado de instrução - recebe um nome, chamado genericamente de Mnemônico. É muito mais fácil de se memorizar um nome do que um código qualquer, além de ser muito mais fácil de se programar por nomes.
+
+Por exemplo, uma comparação típica (você não precisa ainda saber o que exatamente significa tudo isto, o objetivo aqui é a comparação):
+
+Microprocessador 8086
+
+Ling. de máquina Assembly
+B0 FF MOV AL, 0FFh
+A2 00 20 MOV [2000h], AL
+
+Microprocessador 6800
+
+Ling. de máquina Assembly
+86 FF LDA A, # FF
+97 00 20 STA A, 00
+
+Microprocessador 6502
+
+Ling. de máquina Assembly
+A9 FF LDA # FF
+8D 00 20 STA 00
+
+O que significa isto tudo e qual o nosso objetivo com isto ? Todos os três programas para os três microprocessadores apresentados executam a mesma tarefa: colocar o valor 255 na posição de memória 2000h. Você deve ter reparado duas coisas. A primeira, o assunto que nós estávamos discutindo: é muito mais fácil programar em assembly do que em linguagem de máquina (é muito mais fácil você guardar MOV AL do que B0, por exemplo). A segunda, que para cada microprocessador possuímos um conjunto de instruções próprio. Ou seja, não há qualquer correlação entre as instruções dos diversos tipos de microprocessadores existentes no mercado. O que estipulará uma família de microprocessadores será justamente a existência de uma similaridade no conjunto de instruções dos microprocessadores que constituam uma família.
+
+Por assim dizer, um 8086, um 8088, um 80286, um 80386 etc. constituem uma família de microprocessadores por possuírem instruções similares. Quem sabe programar em assembly em um 8086 saberá programar em um 80286, salvo, é claro, as instruções adicionais que cada microprocessador possuirá e que não será muito difícil aprender. Esta família de microprocessadores é chamada Intel Iapx86, 80x86 ou simplesmente Intel e é a família de microprocessadores que está presente no padrão IBM PC de microcomputadores. Outros microprocessadores como o 6800, o 68000, 68020, etc. constituem uma outra família de microprocessadores, por possuírem instruções similares entre si, porém completamente diferentes da família Intel. Esta outra família é chamada 680x0 ou simplesmente Motorola e é a família de microprocessadores que está presente em microcomputadores como o MacIntosh, o Amiga e estações de computação gráfica.
+
+Porém devemos lembrar que mesmo sendo o Assembly uma linguagem de baixo nível, o microprocessador não a entende - ele entende somente linguagem de máquina. O microprocessador não sabe o que é MOV AL, o mnemônico para a instrução B0. Ele entende somente números, e portanto só sabe interpretar B0. Esta conversão pode ser feita basicamente de duas maneiras: ou “na mão” mesmo, utilizando-se a tabela de instruções fornecida pelo fabricante ou utilizando-se de um programa para tal. Este programa é chamado genericamente de Assembler, ou seja, montador. O Assembler lê um programa lido em Assembly e converte-o para linguagem de máquina. Entenda que não há qualquer tipo de tradução indireta: a linguagem Assembly é apenas os opcodes (números que representam instruções específicas) com um rótulo particular, chamado, como vimos, mnemônico."
+
+Veja mais sobre "Introdução a Programação" em: https://brasilescola.uol.com.br/informatica/introducao-a-programacao.htm
